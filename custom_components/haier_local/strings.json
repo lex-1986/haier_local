@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Haier AC (local)",
+        "data": { "name": "Name", "host": "IP address", "mac": "MAC address" },
+        "data_description": { "mac": "Printed on the module / in the router, e.g. 18:a7:f1:78:65:ce" }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the air conditioner on TCP 56800. Close the Haier app and try again.",
+      "invalid_mac": "MAC must contain 12 hex digits."
+    },
+    "abort": { "already_configured": "This air conditioner is already configured." }
+  }
+}

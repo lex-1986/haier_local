@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Кондиционер Haier (локально)",
+        "data": {
+          "name": "Название",
+          "host": "IP-адрес",
+          "mac": "MAC-адрес"
+        },
+        "data_description": {
+          "mac": "Например 18:a7:f1:78:65:ce"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Нет связи с кондиционером по TCP 56800. Закройте приложение Haier и повторите.",
+      "invalid_mac": "MAC должен содержать 12 hex-цифр."
+    },
+    "abort": {
+      "already_configured": "Этот кондиционер уже добавлен."
+    }
+  }
+}

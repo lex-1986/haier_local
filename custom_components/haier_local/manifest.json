@@ -1,0 +1,12 @@
+{
+  "domain": "haier_local",
+  "name": "Haier AC Local (uSDK)",
+  "codeowners": ["@lex-1986"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/lex-1986/haier_local",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/lex-1986/haier_local/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
